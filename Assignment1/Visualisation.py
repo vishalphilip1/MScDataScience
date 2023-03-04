@@ -56,7 +56,7 @@ def plot_pie(Pie_Data, Pie_label):
     Returns plot object representing the pie chart.
 
     """
-    plt.figure(figsize=(20, 9))
+    plt.figure(figsize=(10, 9))
     return plt.pie(Pie_Data, labels=Pie_label, autopct='%1.1f%%')
 
 
@@ -118,7 +118,7 @@ plt.ylabel("Subscription per 100 People", size=13)
 
 # Creating Title
 
-plt.title("Mobile Cellular Subscription of Sothh Asian Countries in 2005")
+plt.title("Mobile Cellular Subscription of South Asian Countries in 2005")
 
 # Saving image
 plt.savefig("bargraph1.png")
@@ -139,6 +139,7 @@ plot_pie(Forest_Data2015, Countries_name)
 # Creating Title
 
 plt.title("Forest Area of South Asian Countries (2015)", size=20)
+plt.legend()
 
 # Saveing fig
 
