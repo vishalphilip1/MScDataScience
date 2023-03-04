@@ -90,7 +90,7 @@ plt.ylabel("Subscription per 100 people", size=13)
 
 # Creating Title
 
-plt.title("Mobile Cellular Subscription of South Asian Coutries")
+plt.title("Mobile Cellular Subscription of South Asian Countries")
 plt.legend(fontsize=8)
 
 # Saving image
