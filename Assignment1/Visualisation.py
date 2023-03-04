@@ -121,7 +121,6 @@ plt.ylabel("Subscription per 100 People", size=13)
 plt.title("Mobile Cellular Subscription of Sothh Asian Countries in 2005")
 
 # Saving image
-
 plt.savefig("bargraph1.png")
 plt.show()
 
@@ -152,10 +151,9 @@ plot_pie(Forest_Data2005, Countries_name)
 # Creating Title
 
 plt.title("Forest Area of South Asian Countries (2005)", size=20)
-
-# Saving Image
 plt.legend()
 
-plt.savefig("piechart2.png")
+# Saving Image
 
+plt.savefig("piechart2.png")
 plt.show()
